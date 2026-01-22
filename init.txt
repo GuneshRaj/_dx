@@ -1,1 +1,145 @@
-test
+
+🎯 POC Objective
+
+Demonstrate that AI-driven False Positives Reduction supported by Anomaly Detection can materially reduce alert volume, accelerate low-risk case turnaround, and improve investigation efficiency without degrading true-risk detection.
+
+⸻
+
+📊 Core KPIs for the POC
+
+🔥 1. Alert Volume Reduction (Primary Success KPI)
+
+Definition:
+Percentage reduction of alerts sent to human investigators compared to current baseline.
+
+Formula:
+(1 − Alerts_after / Alerts_before) × 100
+
+Target for POC:
+✅ ≥ 30% reduction (good)
+🎯 40–60% reduction (excellent)
+
+Why this is realistic:
+Mature false-positive engines in AML typically deliver 30–70% reduction once calibrated.
+
+⸻
+
+⚡ 2. Low-Risk Auto-Resolution Rate
+
+Definition:
+Percentage of low-risk alerts that can be confidently auto-closed or straight-through-processed.
+
+Formula:
+Auto-resolved low-risk alerts / total low-risk alerts
+
+Target:
+✅ ≥ 25% (minimum viable success)
+🎯 40%+ (high-impact result)
+
+Business meaning:
+Direct manpower deflection.
+
+⸻
+
+⏱️ 3. Turnaround Time (TAT) Improvement
+
+Definition:
+Reduction in average time to close low-risk alerts.
+
+Baseline example:
+Current: 2–5 days per alert
+
+Target:
+✅ 50% reduction in TAT
+🎯 >70% reduction for low-risk alerts
+
+Example result:
+3 days → same day or <24 hours.
+
+⸻
+
+🧠 4. Investigation Productivity Gain
+
+Definition:
+Increase in alerts handled per investigator per day.
+
+Formula:
+Post-POC alerts per analyst / Baseline alerts per analyst
+
+Target:
+✅ 1.5× improvement
+🎯 2× improvement
+
+Why this matters:
+This is the metric management understands instantly.
+
+⸻
+
+🛡️ 5. Risk Retention / Detection Integrity (Control KPI)
+
+Definition:
+Percentage of known true-positive or escalated cases still detected after suppression.
+
+How to measure:
+Replay 6–12 months of historical alerts including SAR/STR-filed cases.
+
+Target:
+✅ ≥ 95% retention
+🎯 ≥ 98% retention
+
+This protects you politically and regulatorily.
+
+⸻
+
+🧩 6. Anomaly Detection Contribution
+
+This proves the second module is not “nice to have”.
+
+KPI 6A – New Risk Signal Discovery
+
+% of high-risk alerts that originate from anomaly models rather than existing rules.
+
+Target:
+✅ ≥ 10%
+🎯 15–25%
+
+KPI 6B – False Positive Differentiation
+
+% of alerts reclassified more accurately using behavioural baselines.
+
+Target:
+✅ ≥ 20% improvement in alert quality score.
+
+⸻
+
+📈 Suggested KPI Summary Table (for your paper)
+
+KPI Category	Metric	Baseline	POC Target	Stretch Target
+Alert volume	Total alerts to analysts	100%	≤70%	≤50%
+Low-risk STP	Auto-closure rate	0–5%	≥25%	≥40%
+Turnaround time	Avg low-risk case time	X days	−50%	−70%
+Productivity	Alerts per analyst/day	X	1.5×	2×
+Risk integrity	True-positive retention	100%	≥95%	≥98%
+Anomaly value	New risk signals	0%	≥10%	≥20%
+
+
+⸻
+
+🧾 POC Success Statement You Can Use
+
+“The POC will be deemed successful if the combined False Positives Reduction and Anomaly Detection modules achieve at least a 30% reduction in investigator alerts, a 50% improvement in low-risk turnaround time, and a minimum 1.5× increase in analyst productivity, while retaining at least 95% of known true-positive detections. Stretch objectives include exceeding 40% alert reduction and demonstrating that at least 10–20% of meaningful risk signals originate from anomaly-based detection.”
+
+⸻
+
+🧠 Why this KPI set is strong
+	•	Ties directly to your pain points
+	•	Protects against regulatory criticism
+	•	Creates a funding justification
+	•	Allows objective vendor comparison
+	•	Converts easily into a board slide
+
+⸻
+
+If you want next, I can:
+	•	Draft a POC scope & acceptance criteria section
+	•	Or prepare a one-page POC charter you can attach to the proposal.
